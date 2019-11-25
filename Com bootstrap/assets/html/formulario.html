@@ -14,15 +14,15 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <title>Curiosidades</title>
+    <title>Formulário</title>
 </head>
 
 <body>
 
-    <div class="container" style="font-family:courier,comic-sans,helvetica;">
+    <div class="container formatoTexto">
 
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="row">
 
                     <a class="navbar-brand" href="#">Curiosidades</a>
@@ -60,55 +60,82 @@
                     </div>
 
                     <div class="col">
-                        <img src="assets/image/user.jpg" alt="" width="30px" height="30px">
+                        <img src="../image/user.jpg" alt="" width="30px" height="30px">
                         login/Cadastro
                     </div>
                 </div>
             </nav>
         </header>
 
-        <div class="container bg-light">
+        <div class="container corDeFundo mt-3 mb-3 mr-5">
             <div>
-                <div class="col">
+                <div class="col titulo corDeFundo mt-3 mb-3">
                     Login / Cadastro
                 </div>
             </div>
         </div>
 
-        <div class="containe bg-light">
-            fghfgh
-            <!-- <div class="row">
-                <div class="col-4 mr-3 bg-light">
-                    sadsad
-                    
-                    <div class="container" style="background-color:white">
-                        <form >
+        <div class="containe ml-3">
+            <div class="row">
+                <div class="col-4 corDeFundo mr-3 mr-3">
+
+                    <div class="container formulario">
+                        <form class="mt-3 mb-3">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Enter email">
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
-                                    anyone else.</small>
+                                    aria-describedby="emailHelp" placeholder="nome@curiosidades.com">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputPassword1">Password</label>
+                                <label for="exampleInputPassword1">Senha</label>
                                 <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Password">
+                                    placeholder="senha">
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                <label class="form-check-label" for="exampleCheck1">Manter conectado?</label>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary mb-5">Entrar</button>
                         </form>
+                    </div>
+
                 </div>
-                <div class="col bg-light">
-                    dfdfg-->
+                <div class="col corDeFundo mr-3">
+                    <form>
+                        <div class="containe formulario mt-3 pr-5 pl-5 pt-1 ">
+                            <div class="form-group row mt-3">
+                                <label for="inputEmail3" class="col col-form-label ">Nome</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="joão">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputPassword3" class="col col-form-label">usuário</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3"
+                                        placeholder="joão123">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputPassword3" class="col col-form-label">E-mail</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3"
+                                        placeholder="joao123@curiosidades.com">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputPassword3" class="col col-form-label">Senha</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="senha">
+                                    <button type="submit" class=" col btn btn-primary mt-3 mb-4">cadastrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
 
         </div>
-    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
